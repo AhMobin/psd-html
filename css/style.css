@@ -1,0 +1,73 @@
+@font-face {
+  font-family: MontserratSemiBold;
+  src: url(../fonts/montserrat/Montserrat-SemiBold.otf); }
+
+@font-face {
+  font-family: MontserratBold;
+  src: url(../fonts/montserrat/Montserrat-Bold.otf); }
+
+@font-face {
+  font-family: MontserratRegular;
+  src: url(../fonts/montserrat/Montserrat-Regular.otf); }
+
+header {
+  min-height: 70px; }
+  header .nav-right {
+    float: right;
+    width: 70%;
+    margin: auto;
+    margin-left: 15%; }
+    header .nav-right li {
+      padding-left: 10px; }
+    header .nav-right a {
+      font-family: MontserratSemiBold;
+      text-transform: uppercase;
+      font-size: 14px; }
+      header .nav-right a:hover {
+        background: lightblue;
+        color: black; }
+    header .nav-right:after {
+      content: '';
+      display: block;
+      clear: both; }
+
+.showcase {
+  background: url("../images/slider-bg.png");
+  height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 60px; }
+  .showcase .sub-show {
+    background: url("../images/lawyer-slider-1.png");
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  .showcase .show-heading {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15%;
+    font-family: MontserratBold;
+    font-size: 50px;
+    color: #fff;
+    text-transform: uppercase; }
+  .showcase i {
+    color: #fff;
+    position: absolute;
+    bottom: 4%;
+    left: 50%; }
+
+.what-do .heading {
+  text-align: center; }
+
+.what-do .our-tasks {
+  background: url("../images/middle-showcase.png");
+  background-repeat: no-repeat;
+  width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
