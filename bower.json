@@ -1,0 +1,23 @@
+{
+  "name": "5. Lawyer_pro",
+  "homepage": "https://github.com/AhMobin/psd-html",
+  "authors": [
+    "ahmobin <ahmobin1515@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
+    "font-awesome": "^5.9.0"
+  }
+}
